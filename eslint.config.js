@@ -1,0 +1,13 @@
+export default {
+    parser: '@typescript-eslint/parser',
+    extends: [
+      'eslint:recommended',
+      'plugin:@typescript-eslint/recommended',
+      'prettier',
+    ],
+    plugins: ['@typescript-eslint/eslint-plugin'],
+    root: true,
+    env: {
+      node: true,
+    },
+  };
