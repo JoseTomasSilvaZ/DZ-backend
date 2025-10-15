@@ -18,6 +18,8 @@
   },
   "dependencies": {
     "@hono/node-server": "^1.19.5",
+    "@prisma/client": "^6.17.1",
+    "dotenv": "^17.2.3",
     "hono": "^4.9.12"
   },
   "devDependencies": {
@@ -29,6 +31,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.2.4",
     "prettier": "^3.6.2",
+    "prisma": "^6.17.1",
     "tsx": "^4.7.1",
     "typescript": "^5.9.3",
     "vitest": "^3.2.4"
