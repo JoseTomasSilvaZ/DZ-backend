@@ -8,7 +8,11 @@
     "lint": "eslint 'src/**/*.ts'",
     "format": "prettier --write 'src/**/*.ts'",
     "prepare": "husky",
-    "test": "vitest"
+    "test": "vitest",
+    "seed": "tsx prisma/seed.ts"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
   },
   "lint-staged": {
     "*.ts": [
@@ -19,8 +23,11 @@
   "dependencies": {
     "@hono/node-server": "^1.19.5",
     "@prisma/client": "^6.17.1",
+    "@types/nodemailer": "^7.0.2",
+    "better-auth": "^1.3.27",
     "dotenv": "^17.2.3",
-    "hono": "^4.9.12"
+    "hono": "^4.9.12",
+    "nodemailer": "^7.0.9"
   },
   "devDependencies": {
     "@types/node": "^20.11.17",
